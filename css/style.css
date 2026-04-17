@@ -58,4 +58,21 @@ nav {
 }
 nav img {
   width: 70px;
+}
+nav #bars {
+  display: none;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav a {
+  color: #333;
+  padding: 0.5em;
+  margin: 0.5em;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

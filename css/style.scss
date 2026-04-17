@@ -61,4 +61,24 @@ body{
             img{
                 width: 70px;
             }
+
+            #bars{
+                display: none;
+            }
+            ul{
+                list-style: none;
+                @include partial.flex;
+            }
+            a{
+                color: partial.$text-color;
+                padding: 0.5em;
+                margin: 0.5em;
+                font-size: 20px;
+                font-weight: bold;
+                text-decoration: none;
+            }
+            
+            a:hover, .active{
+                color: .partial.$primary-color;
+            }
     }
